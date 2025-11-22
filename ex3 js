@@ -1,0 +1,10 @@
+'use strict';
+const names = ['John', 'Paul', 'Jones'];
+const target = document.querySelector('#target')
+for (let name of names){
+    const li = document.createElement('li')
+    li.innerText = name
+    target.appendChild(li)
+   }
+
+
